@@ -1,0 +1,68 @@
+{
+  "info": {
+    "name": "BankApplication",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Interest Rates",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:8888/api/interest-rates",
+          "protocol": "http",
+          "host": [
+            "localhost:8888"
+          ],
+          "path": [
+            "api",
+            "interest-rates"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "Check Mortgage",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:8888/api/mortgage-check",
+          "protocol": "http",
+          "host": [
+            "localhost:8888"
+          ],
+          "path": [
+            "api",
+            "mortgage-check"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"income\": 60000,\n    \"maturityPeriod\": 30,\n    \"loanValue\": 200000,\n    \"homeValue\": 250000\n\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "variable": []
+}

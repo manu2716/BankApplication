@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: BankApplication
+server:
+  port: 8888
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
