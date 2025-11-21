@@ -1,9 +1,9 @@
-package com.example.BankApplication.service;
+package com.example.bankapplication.service;
 
-import com.example.BankApplication.dto.InterestRate;
-import com.example.BankApplication.dto.MortgageCheckRequest;
-import com.example.BankApplication.dto.MortgageCheckResponse;
-import com.example.BankApplication.exception.MortgageException;
+import com.example.bankapplication.dto.InterestRate;
+import com.example.bankapplication.dto.MortgageCheckRequest;
+import com.example.bankapplication.dto.MortgageCheckResponse;
+import com.example.bankapplication.exception.MortgageException;
 import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

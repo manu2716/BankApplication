@@ -1,9 +1,9 @@
-package com.example.BankApplication.controller;
+package com.example.bankapplication.controller;
 
-import com.example.BankApplication.dto.InterestRate;
-import com.example.BankApplication.dto.MortgageCheckRequest;
-import com.example.BankApplication.dto.MortgageCheckResponse;
-import com.example.BankApplication.service.MortgageService;
+import com.example.bankapplication.dto.InterestRate;
+import com.example.bankapplication.dto.MortgageCheckRequest;
+import com.example.bankapplication.dto.MortgageCheckResponse;
+import com.example.bankapplication.service.MortgageService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

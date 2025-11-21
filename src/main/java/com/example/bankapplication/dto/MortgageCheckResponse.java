@@ -1,4 +1,4 @@
-package com.example.BankApplication.dto;
+package com.example.bankapplication.dto;
 
 import java.math.BigDecimal;
 

@@ -14,6 +14,8 @@ Swagger UI for interactive API documentation.
 Java 17+
 
 Maven 3.8+
+# Download the code from the Github Repo
+https://github.com/manu2716/BankApplication
 
 # Build the project
 

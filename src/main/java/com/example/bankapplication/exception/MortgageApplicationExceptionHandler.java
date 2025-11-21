@@ -1,6 +1,6 @@
-package com.example.BankApplication.exception;
+package com.example.bankapplication.exception;
 
-import com.example.BankApplication.dto.MortgageCheckResponse;
+import com.example.bankapplication.dto.MortgageCheckResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -17,9 +17,8 @@ public class MortgageApplicationExceptionHandler {
         return new MortgageCheckResponse(false, BigDecimal.ZERO);
     }
 
-//    @ExceptionHandler(HttpMessageNotReadableException.class)
-//    public ProblemDetail handleHttpMessageNotReadableException(HttpMessageNotReadableException exception) {
-//        log.error("Bad Request ", exception);
-//        return createProblemDetail(exception, HttpStatus.BAD_REQUEST, "Invalid request");
-//    }
+    @ExceptionHandler(Exception.class)
+    public MortgageGenericErrorResponse handleHttpMessageNotReadableException(Exception ex) {
+        return new MortgageGenericErrorResponse("Unexpected error: " + ex.getMessage());
+    }
 }

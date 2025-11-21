@@ -1,8 +1,8 @@
-package com.example.BankApplication.controller;
+package com.example.bankapplication.controller;
 
-import com.example.BankApplication.dto.InterestRate;
-import com.example.BankApplication.dto.MortgageCheckResponse;
-import com.example.BankApplication.service.MortgageService;
+import com.example.bankapplication.dto.InterestRate;
+import com.example.bankapplication.dto.MortgageCheckResponse;
+import com.example.bankapplication.service.MortgageService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

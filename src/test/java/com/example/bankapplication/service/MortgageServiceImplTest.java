@@ -1,8 +1,8 @@
-package com.example.BankApplication.service;
+package com.example.bankapplication.service;
 
-import com.example.BankApplication.dto.MortgageCheckRequest;
-import com.example.BankApplication.dto.MortgageCheckResponse;
-import com.example.BankApplication.exception.MortgageException;
+import com.example.bankapplication.dto.MortgageCheckRequest;
+import com.example.bankapplication.dto.MortgageCheckResponse;
+import com.example.bankapplication.exception.MortgageException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

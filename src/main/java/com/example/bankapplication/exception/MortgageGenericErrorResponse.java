@@ -1,4 +1,4 @@
-package com.example.BankApplication.exception;
+package com.example.bankapplication.exception;
 
 public record MortgageGenericErrorResponse(String message) {
 }
